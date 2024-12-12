@@ -17,3 +17,7 @@ def find(name):
 def upate_contact(name,number):
     contacts[name]=number      # der vorhandene Name (Key) wird überschrieben -> key ist immer eindeutig (nur einmal)
 
+''' delete Entry'''
+def delete_entry(name):
+    del contacts[name]
+
