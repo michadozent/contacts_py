@@ -21,3 +21,6 @@ def upate_contact(name,number):
 def delete_entry(name):
     del contacts[name]
 
+def info():
+    print("meine Contacts", contacts)
+
